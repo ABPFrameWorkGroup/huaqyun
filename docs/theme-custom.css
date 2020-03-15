@@ -1,0 +1,29 @@
+:root {
+    --base-font-size: 15px;
+    /* Root */
+    --navbar-root-background                        : ;
+    --navbar-root-background--active                : ;
+    --navbar-root-background--hover                 : ;
+    --navbar-root-border-color                      : ;
+    --navbar-root-border-color--active              : ;
+    --navbar-root-border-color--hover               : ;
+    --navbar-root-border-radius                     : ;
+    --navbar-root-border-style                      : ;
+    --navbar-root-border-style--active              : ;
+    --navbar-root-border-style--hover               : ;
+    --navbar-root-border-width                      : ;
+    --navbar-root-color                             : ;
+    --navbar-root-color--active                     :#2db7f5 ;
+    --navbar-root-color--hover                      :#2db7f5;
+    --navbar-root-margin                            : 0 0 0 1.5em;
+    --navbar-root-padding                           : ;
+    --navbar-root-transition                        : all var(--duration-fast);
+    --navbar-root-text-decoration                   : ;
+    --navbar-root-text-decoration--active           :#2db7f5 ;
+    --navbar-root-text-decoration--hover            :#2db7f5 ;
+    --navbar-root-text-decoration-color             : ;
+    --navbar-root-text-decoration-color--active     :#2db7f5 ;
+    --navbar-root-text-decoration-color--hover      :#2db7f5 ;
+  }
+
+  
