@@ -1,7 +1,7 @@
 :root {
     --base-font-size: 15px;
     /* Root */
-    --navbar-root-background                        : ;
+    --navbar-root-background                        :#222222 ;
     --navbar-root-background--active                : ;
     --navbar-root-background--hover                 : ;
     --navbar-root-border-color                      : ;

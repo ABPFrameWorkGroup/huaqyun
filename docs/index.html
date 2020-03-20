@@ -17,7 +17,9 @@
 
   <!-- Theme: Simple (latest v0.x.x) -->
   <!-- Theme: Simple -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-defaults.css"> -->
+  
 
   <link rel=stylesheet href=theme-custom.css>
 </head>
@@ -46,10 +48,10 @@
 
       //侧边栏
       //-----------------------------------------------------------------
-      logo: '/_media/app-logo-on-dark.png', //侧面的log
+      logo: '/media/logo2.png', //侧面的log
       loadSidebar: true, 
-      maxLevel: 2,
-      subMaxLevel: 4,//生成目录的最大层级
+      maxLevel: 4, //目录最大展开层级，默认值为 6
+      subMaxLevel: 3,//,其实就是文档中的#,生成目录的最大层级,subMaxLevel类型是number(数字)，表示显示的目录层级如果md文件中的第一个标题是一级标题，那么不会显示在侧边栏
       alias: {
         '/.*/_sidebar.md':'/_sidebar.md'//防止意外回退  
       },
@@ -92,7 +94,7 @@
         },
 
         // 搜索标题的最大程级, 1 - 6
-        depth: 2
+        depth: 3
       }
 
 
@@ -109,6 +111,11 @@
   <!-- 搜索插件的js -->
   <script src="js/search.js"></script>
 
+  <!-- 语法高亮插件 -->
+  <script src="js/prism-csharp.min.js"></script>
+  <script src="js/prism-javascript.min.js"></script>
+
+  
 </body>
 
 </html>
