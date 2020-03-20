@@ -17,7 +17,7 @@
 * 后端数据接口：.NetCore
 
 [GitHub](https://github.com/ABPFrameWorkGroup/huaqyun)
-[开始](#项目介绍)  <!-- 这里的URL连接到readme.md的介绍 -->
+[进入](#项目介绍)  <!-- 这里的URL连接到readme.md的介绍 -->
 [演示](#quick-start)
 
 <!-- ![](_media/bg.jpg) -->

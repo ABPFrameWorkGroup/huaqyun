@@ -9,15 +9,15 @@
  ### 目录架构
 ``` javascript
 |-- project
-    |-- .editorconfig
-    |-- .env.development
-    |-- .env.production
-    |-- .env.staging
-    |-- .eslintignore
-    |-- .eslintrc.js
-    |-- .gitignore
-    |-- .travis.yml
-    |-- babel.config.js
+    |-- .editorconfig  //维护一致的编码样式
+    |-- .env.development //开发环境配置参数
+    |-- .env.production //生产环境参数
+    |-- .env.staging //稳定版本
+    |-- .eslintignore //eslintignore代码检查忽略
+    |-- .eslintrc.js //代码检查
+    |-- .gitignore //版本忽略
+    |-- .travis.yml //yaml语法的写出来的配置文件，用来描述如何持续构建
+    |-- babel.config.js 
     |-- jest.config.js
     |-- jsconfig.json
     |-- LICENSE
