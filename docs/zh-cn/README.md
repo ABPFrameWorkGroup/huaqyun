@@ -11,5 +11,3 @@
 ### 系统截图
 ![](/media/example1.png)
 ![](/media/example2.png)
-!> **Important** notice with `inline code` and additional placeholder text used
-to force the content to wrap and span multiple lines.
