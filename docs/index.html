@@ -17,28 +17,23 @@
 
   <!-- Theme: Simple (latest v0.x.x) -->
   <!-- Theme: Simple -->
+  <!-- <link rel="stylesheet" href="//unpkg.com/docsify/themes/vue.css"> -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
   <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-defaults.css"> -->
-  
-
-  <link rel=stylesheet href=theme-custom.css>
+  <!-- <link rel=stylesheet href=theme-custom.css> -->
 </head>
 
 <body>
   <div id="app">加载中......</div>
-  <nav>
-    <a href="#/">EN</a>
-    <a href="#/zh-cn/">中文</a>
-  </nav>
   <script> 
     //全局配置
     // -----------------------------------------------------------------
     window.$docsify = {
       name: '华秦云', //通过设置index.html中window.$docsify的 repo 参数配置仓库地址或者 username/repo 的字符串，会在页面右上角渲染一个 GitHub Corner 挂件，点击即可跳转到Github中对应的项目地址。
       repo: '',
-      coverpage: true, //渲染封面
+      coverpage: ['/en-us/', '/zh-cn/'], //渲染封面
       themeColor: '#3F51B5',//主题颜色
-
+      homepage: 'zh-cn/README.md', // 主页
       //菜单栏
       //-----------------------------------------------------------------
       loadNavbar: true, //加载菜单
@@ -65,14 +60,6 @@
 
       //搜索插件配置
       //-----------------------------------------------------------------
-      search: 'auto', // 默认值
-      search: [
-        '/',            // => /README.md
-        '/guide',       // => /guide.md
-        '/get-started', // => /get-started.md
-        '/zh-cn/',      // => /zh-cn/README.md
-      ],
-
       // 完整配置参数
       search: {
         maxAge: 86400000, // 过期时间，单位毫秒，默认一天
@@ -105,7 +92,7 @@
   <script src="js/docsify.min.js"></script>
   <!--加载DOCSIFY的JS结束-->
 
-  <!-- docsify-themeable (latest v0.x.x) -->
+  <!-- docsify-themeable (latest v0.x.x) 主题插件-->
   <script src="js/docsify-themeable@0"></script>
 
   <!-- 搜索插件的js -->
@@ -114,8 +101,6 @@
   <!-- 语法高亮插件 -->
   <script src="js/prism-csharp.min.js"></script>
   <script src="js/prism-javascript.min.js"></script>
-
-  
 </body>
 
 </html>

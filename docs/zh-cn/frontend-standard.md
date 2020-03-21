@@ -6,7 +6,6 @@
  * @Description: In User Settings Edit
  * @FilePath: \Learing\huaqyun\docs\zh-cn\frontend\standard.md
  -->
-### 开发规范
 为提高团队协作效率，便于后台人员添加功能及前端后期优化维护输出高质量的文档。为了让大家书写可维护的代码，而不是一次性的代码，让团队当中其他人看你的代码能一目了然，甚至一段时间时候后你再看你某个时候写的代码也能看。
 ### 1.命名规范
 > PascalCase（帕斯卡命名法，大驼峰，首字母大写）举例：CreateOrEditUserDialog.vue  
@@ -19,10 +18,11 @@
   * 举例：
   ``` javascript
   const userRoles = [];
-  const names = new Array();
+  const names = new Array(); 
   ```
-  说明：语义化，命名必须是跟需求的内容相关的词
-  
+
+!> 语义化，命名必须是跟需求的内容相关的词
+
 2.2 常量const
    * 原则：大写字母和下划线
    * 举例：
@@ -69,19 +69,17 @@
   }
     </script>
    ```
-   <font color=#fff68f size=3>使用：特别注意，在VUE中使用组件会自动Camel-Case进行转换,以下两种均可以。</font>
-   
+
+  !> 使用：特别注意，在VUE中使用组件会自动Camel-Case进行转换,以下两种均可以：
+
    ``` javascript
    <create-or-edit-user-dialog :id="dialog.id" :dialogvisible.sync="dialog.dialogVisible"></create-or-edit-user-dialog>
-   ```
-
-   ```
    <CreateOrEditUserDialog :id="dialog.id" :dialogvisible.sync="dialog.dialogVisible"></CreateOrEditUserDialog>
    ```
-   <font color=#fff68f size=3>注意：此时，在子组件中访问父组件变量时：</font>
-   ```
+  !> 注意：此时，在子组件中访问父组件变量时，使用以下方式：   
+  ``` javascript
    this.$emit('update:dialog-visible', false)
-   ```
+  ```
    2.4 views下的文件命名
    * 尽量是名词,且使用大驼峰命名法
    * 只有一个文件的情况下不会出现文件夹，而是直接放在 views 目录下面，如 index.vue
@@ -133,6 +131,6 @@
       *  <hbTable :title="title" :columns="columns" :tableData="tableData"></hbTable>
       **/
 ```
-**说明：使用插件comment插件或者koroFileHeader**
+!> **说明：使用插件comment插件或者koroFileHeader**
 
 ### 3.代码风格
