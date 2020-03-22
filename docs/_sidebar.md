@@ -11,6 +11,9 @@
   * [系统架构](zh-cn/system.md)
   * [服务器架构](zh-cn/server.md)
   * [关于我们](zh-cn/about.md)
+* 多人协作
+  * [Gitee码云](zh-cn/Gitee.md)
+  * [Github](zh-cn/Github.md)
 * 前端框架
   * [目录结构](zh-cn/frontend-directory.md)
   * [开发规范](zh-cn/frontend-standard.md)
